@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tours por Valencia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Tours por Valencia</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#home">Inicio</a></li>
+      <li><a href="#tours">Tours</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+  
+  <section id="home">
+    <h2>Bienvenido a Valencia</h2>
+    <p>Descubre los mejores tours por la ciudad.</p>
+    <a href="#tours" class="btn">Ver tours</a>
+  </section>
+  
+  <section id="tours">
+    <h2>Nuestros tours</h2>
+    <div class="tour">
+      <img src="tour1.jpg" alt="Tour 1">
+      <h3>Tour por la Ciudad de las Artes y las Ciencias</h3>
+      <p>Descubre la impresionante arquitectura moderna de la Ciudad de las Artes y las Ciencias con nuestro tour guiado.</p>
+      <a href="contact.html" class="btn">Reservar ahora</a>
+    </div>
+    <div class="tour">
+      <img src="tour2.jpg" alt="Tour 2">
+      <h3>Tour por el Casco Antiguo</h3>
+      <p>Recorre las estrechas calles del casco antiguo de Valencia y visita sus principales monumentos históricos.</p>
+      <a href="contact.html" class="btn">Reservar ahora</a>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <h2>Contacto</h2>
+    <form>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" required></textarea>
+      <input type="submit" value="Enviar" class="btn">
+    </form>
+  </section>
+  
+  <footer>
+    <p>&copy; 2022 Tours por Valencia. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
