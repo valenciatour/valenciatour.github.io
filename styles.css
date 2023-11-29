@@ -1,4 +1,43 @@
 /* styles.css */
+/* Estilos para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F0F0F0;
+}
+
+/* Estilos para encabezados */
+h1 {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #666666;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+/* Estilos para enlaces */
+a {
+  color: #0066FF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para contenedores */
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
