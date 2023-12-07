@@ -87,11 +87,18 @@ footer {
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
-  .tour {
+   .tour {
     width: 100%; /* En dispositivos más pequeños, ocupar todo el ancho */
   }
+  nav ul {
+    flex-direction: column; /* Cambiar la dirección del menú a columna */
+    align-items: center; /* Centrar los elementos */
+  }
+  nav ul li {
+    margin-right: 0; /* Eliminar el margen derecho */
+    margin-bottom: 10px; /* Agregar espacio entre elementos */
+  }
 }
-
            </style>
 </head>
 <body>
